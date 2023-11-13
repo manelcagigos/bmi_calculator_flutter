@@ -21,6 +21,7 @@ class ResultsPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('BMI CALCULATOR'),
         centerTitle: true,
+        automaticallyImplyLeading: false,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
